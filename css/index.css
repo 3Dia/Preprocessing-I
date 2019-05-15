@@ -134,6 +134,7 @@ html,
 body {
   height: 100%;
 }
+/* Variables*/
 /* Container */
 .container {
   width: auto;
@@ -144,7 +145,8 @@ body {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid red;
+  padding-bottom: 20px;
 }
 .header .name {
   font-size: 20px;
@@ -158,5 +160,29 @@ body {
   text-decoration: none;
 }
 /*Intro*/
+.about-me {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+.about-me h1 {
+  color: red;
+  padding-bottom: 10px;
+}
+.about-me p {
+  color: gray;
+}
 /* Work History and Skills */
+.work-skill {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.work-skill .work-history {
+  width: 68%;
+  border-right: 1px solid black;
+}
+.work-skill .skill {
+  padding-left: 10px;
+}
 /*Contact Info*/

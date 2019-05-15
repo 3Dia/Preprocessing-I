@@ -57,6 +57,14 @@ table {
 html, body {
     height: 100%;
 }
+/* Variables*/
+
+@red: red;
+@black: black;
+@gray: gray;
+@header: 10px;
+@border: 1px solid black;
+
 /* Container */
 .container{
 	width: auto;
@@ -69,28 +77,54 @@ html, body {
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
-	border-bottom: 2px solid black;
-
-
-
+	border-bottom: 2px solid @red;
+	padding-bottom: 20px;
 
 .name{
 	font-size: 20px;
-	font-color: black;
+	font-color: @black
 }
 
 nav{
-	border-left: 2px solid black;
+	border-left: 2px solid @black;
 }
 	
-a{	color: gray;
+a{	color:@gray;
 	text-decoration: none;
 	}
-	
 }
 
 /*Intro*/
+.about-me{
+padding-top: 20px;
+padding-bottom: 20px;
+margin-bottom: 20px;
+border-bottom: @border;
+	h1{
+		color:@red;
+		padding-bottom: @header;
+	}
+
+	p{
+		color: @gray;
+	}
+
+}
 
 /* Work History and Skills */
+
+.work-skill{
+	display: flex;
+	flex-wrap: nowrap;
+
+.work-history{
+	width: 68%;
+	border-right: @border;
+	}
+.skill{
+	padding-left:10px;
+
+	}
+}
 
 /*Contact Info*/
