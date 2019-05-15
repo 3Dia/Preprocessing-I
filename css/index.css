@@ -129,49 +129,64 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 html,
 body {
   height: 100%;
+  /*background-color: #eae2d6; */
 }
 /* Variables*/
 /* Container */
 .container {
   width: auto;
-  margin: 20px 20px;
+  margin: 1rem 1rem;
 }
 /*Header */
 .header {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-between;
-  border-bottom: 2px solid red;
+  justify-content: space-around;
   padding-bottom: 20px;
 }
 .header .name {
-  font-size: 20px;
-  font-color: black;
+  font-size: 30px;
+  color: #228b22;
 }
 .header nav {
-  border-left: 2px solid black;
+  border-left: 2px solid #e1b80d;
 }
 .header a {
-  color: gray;
+  color: #51185D;
   text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+}
+/*Mark Ruffalo*/
+.ruffalo {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+.ruffalo img {
+  border-radius: 30%;
+}
+.ruffalo img:hover {
+  background: url("images/hulk.jpg") no-repeat;
 }
 /*Intro*/
 .about-me {
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 20px;
-  border-bottom: 1px solid black;
+  border-bottom: 0.001rem solid #867666;
 }
 .about-me h1 {
-  color: red;
-  padding-bottom: 10px;
+  color: #867666;
+  padding-bottom: 1rem;
 }
 .about-me p {
-  color: gray;
+  color: #c9a66b;
 }
 /* Work History and Skills */
 .work-skill {
@@ -184,21 +199,22 @@ body {
 }
 .work-skill .work-history {
   width: 68%;
-  border-right: 1px solid black;
+  border-right: 0.001rem solid #867666;
 }
 .work-skill .skill {
   padding-left: 10px;
+  color: #228b22;
 }
 .work-skill h1 {
-  color: red;
-  padding-bottom: 10px;
+  color: #867666;
+  padding-bottom: 1rem;
 }
 .work-skill h2 {
-  color: black;
-  padding-bottom: 10px;
+  color: #e1b80d;
+  padding-bottom: 1rem;
 }
 .work-skill p {
-  color: gray;
+  color: #c9a66b;
 }
 /*Contact Info*/
 footer {
