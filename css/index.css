@@ -134,3 +134,29 @@ html,
 body {
   height: 100%;
 }
+/* Container */
+.container {
+  width: auto;
+  margin: 20px 20px;
+}
+/*Header */
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+.header .name {
+  font-size: 20px;
+  font-color: black;
+}
+.header nav {
+  border-left: 2px solid black;
+}
+.header a {
+  color: gray;
+  text-decoration: none;
+}
+/*Intro*/
+/* Work History and Skills */
+/*Contact Info*/
