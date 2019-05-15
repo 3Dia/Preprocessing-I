@@ -177,6 +177,10 @@ body {
 .work-skill {
   display: flex;
   flex-wrap: nowrap;
+  /*.skill-line{
+	display: flex;
+	flex-direction: row;
+}	*/
 }
 .work-skill .work-history {
   width: 68%;
@@ -185,4 +189,22 @@ body {
 .work-skill .skill {
   padding-left: 10px;
 }
+.work-skill h1 {
+  color: red;
+  padding-bottom: 10px;
+}
+.work-skill h2 {
+  color: black;
+  padding-bottom: 10px;
+}
+.work-skill p {
+  color: gray;
+}
 /*Contact Info*/
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding-top: 20px;
+}
