@@ -1,1 +1,226 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+html,
+body {
+  height: 100%;
+  /*background-color: #eae2d6; */
+}
+/* Variables*/
+/* Container */
+.container {
+  width: auto;
+  margin: 1rem 1rem;
+}
+/*Header */
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+.header .name {
+  font-size: 30px;
+  color: #228b22;
+}
+.header nav {
+  border-left: 2px solid #e1b80d;
+}
+.header a {
+  color: #51185D;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+}
+/*Mark Ruffalo*/
+.ruffalo {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+.ruffalo img {
+  border-radius: 30%;
+}
+.ruffalo img:hover {
+  background: url("images/hulk.jpg") no-repeat;
+}
+/*Intro*/
+.about-me {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 0.001rem solid #867666;
+}
+.about-me h1 {
+  color: #867666;
+  padding-bottom: 1rem;
+}
+.about-me p {
+  color: #c9a66b;
+}
+/* Work History and Skills */
+.work-skill {
+  display: flex;
+  flex-wrap: nowrap;
+  /*.skill-line{
+	display: flex;
+	flex-direction: row;
+}	*/
+}
+.work-skill .work-history {
+  width: 68%;
+  border-right: 0.001rem solid #867666;
+}
+.work-skill .skill {
+  padding-left: 10px;
+  color: #228b22;
+}
+.work-skill h1 {
+  color: #867666;
+  padding-bottom: 1rem;
+}
+.work-skill h2 {
+  color: #e1b80d;
+  padding-bottom: 1rem;
+}
+.work-skill p {
+  color: #c9a66b;
+}
+/*Contact Info*/
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding-top: 20px;
+}
